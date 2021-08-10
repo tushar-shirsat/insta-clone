@@ -1,0 +1,139 @@
+.post{
+    max-width: 616px;
+    width: 616px;
+    background-color: #fff;
+    border: 1px solid lightgray;
+}
+
+.post__header{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.post__header-left{
+    display: flex;
+    align-items: center;
+}
+
+.post-avatar{
+    width: 32px;
+    height: 32px;
+}
+
+.post__user-name{
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-left: 1.6rem;
+}
+
+.post__main-post{
+    width: 100%;
+}
+
+.post__main-content{
+    width: 100%;
+    object-fit: contain;
+}
+
+.post-icon{
+    font-size: 3rem !important;
+    cursor: pointer;
+}
+
+
+
+.post__footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-footer{
+    margin-right: 1.6rem;
+    font-size: 3.5rem !important;
+    font-weight: 500;
+}
+
+.post__footer-caption{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.post__footer-caption h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.post__footer-caption p{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.post__likes{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.time_stamp{
+    font-size: 1.4rem;
+    color: lightgray;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer__comment-container{
+    border-top: 1px solid lightgray;
+    display: flex;
+    padding: 1rem;
+}
+
+.content_detail{
+    padding: 1rem;
+}
+
+.footer__comment-container{
+    display: flex;
+    align-items: center;
+}
+
+.comment-input{
+    width: 100%;
+    font-size: 1.6em;
+    padding: 0.5rem 0;
+    outline: none;
+    border: none;
+}
+
+.comment-input::placeholder{
+    font-size: 1.6rem;
+    color: lightgray;
+    font-weight: 500;
+}
+
+.post__comment-btn{
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    color: #3498db;
+    font-weight: bold;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 950px){
+    .post{
+        margin: auto;
+    }
+  }
+
+@media (max-width: 644px){
+    .post{
+        width: 100%;
+    }
+}
